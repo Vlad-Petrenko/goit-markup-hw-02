@@ -31,7 +31,7 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
-  ont-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1px;
   letter-spacing: 0.02em;
@@ -46,6 +46,10 @@ body {
 .auth-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -98,12 +102,15 @@ body {
 /* Team */
 .our-team .name {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.2;
 }
-.our-team {
+.our-team .paragraph{
   font-size: 16px;
   line-height: 1.2;
 }
 /* Footer */
+
 .address {
   font-size: 14px;
   line-height: 1.71;
@@ -115,9 +122,15 @@ body {
 .address .link {
   color: var(--white-fill);
   text-decoration: none;
+  font-style: normal;
 }
 
+/* Porfolio */
+.logo.footer {
+  color: var(--white-color);
+}
 .filter .list .button {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -137,7 +150,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.filter .portfolio .title {
+.filter .portfolio .paragraph {
   font-size: 16px;
   line-height: 1.87;
 }
