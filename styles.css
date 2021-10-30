@@ -120,6 +120,7 @@ body {
 }
 .address .street {
   color: var(--white-color);
+  font-style: normal;
 }
 
 .address .link {
