@@ -69,7 +69,9 @@ body {
   text-transform: uppercase;
 }
 
+
 .hero .button {
+  font-family: Roboto;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
@@ -102,6 +104,7 @@ body {
 /* Team */
 .our-team .name {
   color: var(--title-text-color);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
